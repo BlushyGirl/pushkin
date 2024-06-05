@@ -19,6 +19,13 @@ body {
       width: 100%;
     }
 
+img{
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  width: 400px; 
+  height: 500px;
+}
+
     .options {
       font-family: 'Montserrat', sans-serif;
       display: flex;
