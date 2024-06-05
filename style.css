@@ -1,0 +1,83 @@
+body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      background-color: #D8C3A5;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    .question {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+
+    .options {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      width: 100%;
+
+    }
+
+    .option {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .option input {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      text-align: left;
+    }
+
+    p{
+      margin-top:5px ;
+      margin-bottom: 5px;
+    }
+
+    br{
+      line-height:0px;
+    }
+
+    input[type="radio"] {
+      width: 30px; /* Ширина радиокнопки */
+      height: 30px; /* Высота радиокнопки */
+      border: 2px solid #999; /* Граница радиокнопки */
+      border-radius: 50%; /* Скругление границы для круглой формы */
+      outline: none; /* Убираем контур при фокусе */
+      margin: 0 10px 0 0; /* Отступы вокруг радиокнопки */
+      cursor: pointer; 
+    }
+    
+    /* Стиль для элемента, когда он выбран */
+    input[type="radio"]:checked {
+      border: 2px solid #9bac76; /* Синяя граница для выбранного состояния */
+    }
+    
+    /* Стиль для визуального отображения выбранного состояния */
+    input[type="radio"]:checked::after {
+      content: '';
+      display: block;
+      width: 18px;
+      height: 18px;
+      margin: 4px;
+      background-color: #9bac76; /* Синий фон для выбранного состояния */
+      border-radius: 50%;
+    }
+
