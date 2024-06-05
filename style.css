@@ -16,6 +16,7 @@ body {
       font-size: 30px;
       padding-top: 25px;
       padding-bottom: 15px;
+      width: 100%;
     }
 
     .options {
@@ -26,7 +27,6 @@ body {
       margin-bottom: 20px;
       margin-top: 20px;
       width: 100%;
-
     }
 
     .option {
